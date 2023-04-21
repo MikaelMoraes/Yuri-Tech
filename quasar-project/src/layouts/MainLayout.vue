@@ -1,16 +1,17 @@
 <template>
   <q-layout view="lhh Lpr lff">
     <q-header elevated>
-      <q-toolbar class="bg-menu ">
+      <q-toolbar class="bg-menu " id="top">
         <q-toolbar-title class="text-center">
           <img class="q-ma-none" src="~assets/LogoVetor.png" style="width: 200px; height: 200px">
         </q-toolbar-title>
       </q-toolbar>
       <q-tabs v-model="tab" class="bg-menu">
         <q-tab name="inicio" label="Inicio" />
-        <q-tab name="serviços" label="Serviços" />
+        <q-tab name="servicos" label="Serviços" />
         <q-tab name="relatosDeClientes" label="Relatos de Clientes" />
         <q-tab name="contatos" label="Contatos" />
+        <q-tab name="localizacao" label="Localização" />
       </q-tabs>
     </q-header>
     <q-page-container>
@@ -18,12 +19,12 @@
     </q-page-container>
     <q-footer elevated class="bg-menu">
 
-      <div class="row items-center q-mt-xl">
+      <div class="row items-center q-mt-sm">
         <div class="col-12 col-md-4  text-h5 text-center">
           <p> &copy;2023 Yuri Tech Reparos</p>
         </div>
         <div class="col-12 col-md-4  text-center">
-          <img src="~assets/LogoVetor.png" style="width: 200px; height: 200px">
+          <img src="~assets/LogoVetor.png" style="width: 150px; height: 150px">
         </div>
         <div class="col-12 col-md-4  text-h5 text-center">
           <p> Desenvolvido por <a href="https://portifolio-mikael.vercel.app/" class="text-link" target="_blank">Mikael
@@ -50,7 +51,7 @@
 }
 
 .text-link {
-  color: $card-border-color;
+  color: $dark;
   text-decoration: none;
 }
 
@@ -59,7 +60,7 @@
 }
 </style>
 <script>
-import { defineComponent, ref } from 'vue'
+import { defineComponent } from 'vue'
 export default defineComponent({
   name: 'MainLayout'
 })

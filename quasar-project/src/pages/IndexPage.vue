@@ -1,9 +1,11 @@
 <template>
   <q-page class=" bg-color">
-    <InicioTopo/>
-    <ServicosDisponiveis/>
-    <RelatosClientes/>
-    <ContatoLocalizacao/>
+    <InicioTopo />
+    <ServicosDisponiveis />
+    <RelatosClientes />
+    <ContatoSocial />
+    <LocalizacaoGoogle />
+    <VoltaTopo />
   </q-page>
 </template>
 <style lang="scss" scoped>
@@ -16,15 +18,19 @@ import { defineComponent } from 'vue'
 import InicioTopo from 'components/InicioTopo.vue'
 import ServicosDisponiveis from 'components/ServicosDisponiveis.vue'
 import RelatosClientes from 'src/components/RelatosClientes.vue'
-import ContatoLocalizacao from 'src/components/ContatoLocalizacao.vue'
+import ContatoSocial from 'src/components/ContatoSocial.vue'
+import LocalizacaoGoogle from 'src/components/localizacaoGoogle.vue'
+import VoltaTopo from 'src/components/VoltaTopo.vue'
 
 export default defineComponent({
   name: 'IndexPage',
-  components:{
+  components: {
     InicioTopo,
     ServicosDisponiveis,
     RelatosClientes,
-    ContatoLocalizacao
+    ContatoSocial,
+    LocalizacaoGoogle,
+    VoltaTopo
   }
 })
 </script>
