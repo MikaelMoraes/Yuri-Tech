@@ -1,55 +1,63 @@
 <template>
-    <div>
+    <div class="bg-dark border-tb ">
         <div class="row">
             <div class="col-12 text-center text-white">
                 <h3 class="text-bold">Redes Sociais</h3>
             </div>
         </div>
         <div class="row q-pa-xl">
-            <div class="col-12 col-sm-4 col-md-4 col-lg-4 q-mb-xl text-center">
-                <q-icon name="fa-brands fa-instagram" color="pink" size="4rem" />
-                <p class="text-h4 text-bold q-my-lg">Instagram</p>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-3 q-mb-xl text-center bounce">
+                <a href="https://www.instagram.com/yuri.tech/" class="text-rede" target="_blank">
+                    <q-icon name="fa-brands fa-instagram" color="pink" size="4rem" />
+                    <p class="text-h4 text-bold q-my-lg   ">@yuri.tech</p>
+                </a>
+
             </div>
-            <div class="col-12 col-sm-4 col-md-4 col-lg-4 q-mb-xl text-center">
-                <q-icon name="fa-brands fa-facebook" color="white" size="4rem" />
-                <p class="text-h4 text-bold q-my-lg">facebook</p>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-3 q-mb-xl text-center bounce">
+                <a href="https://www.facebook.com/YuriTechReparos/?locale=pt_BR" class="text-rede" target="_blank">
+                    <q-icon name="fa-brands fa-facebook" color="blue" size="4rem" />
+                    <p class="text-h4 text-bold q-my-lg">YuriTechReparos</p>
+                </a>
+
             </div>
-            <div class="col-12 col-sm-4 col-md-4 col-lg-4  q-mb-xl text-center">
-                <q-icon name="fa-brands fa-whatsapp" color="green" size="4rem" />
-                <p class="text-h4 text-bold q-my-lg">Wpp</p>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-3  q-mb-xl text-center bounce">
+                <a href="https://www.tiktok.com/@yuri.tech" class="text-rede" target="_blank">
+                    <q-icon name="fa-brands fa-tiktok" color="black" size="4rem" />
+                    <p class="text-h4 text-bold q-my-lg">@yuri.tech</p>
+                </a>
+
+            </div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-3  q-mb-xl text-center bounce">
+                <a href="https://www.youtube.com/c/YuriTechReparos/videos" class="text-rede" target="_blank">
+                    <q-icon name="fa-brands fa-youtube" color="red" size="4rem" />
+                    <p class="text-h4 text-bold q-my-lg">Yuri Tech Reparos</p>
+                </a>
+
             </div>
         </div>
     </div>
 </template>
   
 <style lang="scss" scoped>
-.bg-relatos {
-    background-color: $card-color;
-    border-bottom: solid 10px $card-border-color;
-    border-top: solid 10px $card-border-color;
+.border-tb {
+    border-top: solid 5px $borda-top;
+    border-bottom: solid 5px $borda-top;
 }
 
-.card-text-border {
-    border-radius: 15px;
+.bounce {
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
 }
 
-.container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 35%;
-    /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+.bounce:hover {
+    transform: scale(1.2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+
 }
 
-/* Then style the iframe to fit in the container div with full height and width */
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+.text-rede {
+    color: $borda-top;
+    text-decoration: none;
 }
 </style>
     
