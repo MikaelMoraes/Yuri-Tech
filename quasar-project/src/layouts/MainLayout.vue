@@ -7,11 +7,12 @@
         </q-toolbar-title>
       </q-toolbar>
       <q-tabs v-model="tab" class="bg-menu">
-        <q-tab name="inicio" label="Inicio" />
-        <q-tab name="servicos" label="Serviços" />
-        <q-tab name="relatosDeClientes" label="Relatos de Clientes" />
-        <q-tab name="contatos" label="Contatos" />
-        <q-tab name="localizacao" label="Localização" />
+
+        <q-tab name="inicio" label="Inicio" @click="scroolToInicio" />
+        <q-tab name="servicos" label="Serviços" @click="scroolToServicos" />
+        <q-tab name="relatosDeClientes" label="Relatos de Clientes" @click="scroolToRelatos" />
+        <q-tab name="contatos" label="Contatos" @click="scroolToContato" />
+        <q-tab name="localizacao" label="Localização" @click="scroolToLocalizacao" />
       </q-tabs>
     </q-header>
     <q-page-container>
@@ -62,6 +63,52 @@
 <script>
 import { defineComponent } from 'vue'
 export default defineComponent({
-  name: 'MainLayout'
+  name: 'MainLayout',
+  data() {
+    return {
+      showButton: false
+    }
+  },
+  methods: {
+    handleScroll() {
+      this.showButton = window.pageYOffset > 100
+    },
+    scroolToInicio() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    },
+    scroolToServicos() {
+      window.scrollTo({
+        top: 1600,
+        behavior: 'smooth'
+      })
+    },
+    scroolToRelatos() {
+      window.scrollTo({
+        top: 2150,
+        behavior: 'smooth'
+      })
+    },
+    scroolToContato() {
+      window.scrollTo({
+        top: 2650,
+        behavior: 'smooth'
+      })
+    },
+    scroolToLocalizacao() {
+      window.scrollTo({
+        top: 3150,
+        behavior: 'smooth'
+      })
+    }
+  },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.handleScroll)
+  }
 })
 </script>

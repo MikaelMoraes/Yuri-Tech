@@ -1,5 +1,6 @@
 <template>
   <q-page class=" bg-color">
+
     <InicioTopo />
     <ServicosDisponiveis />
     <RelatosClientes />
@@ -22,6 +23,7 @@ import ContatoSocial from 'src/components/ContatoSocial.vue'
 import LocalizacaoGoogle from 'src/components/localizacaoGoogle.vue'
 import VoltaTopo from 'src/components/VoltaTopo.vue'
 
+
 export default defineComponent({
   name: 'IndexPage',
   components: {
@@ -31,6 +33,7 @@ export default defineComponent({
     ContatoSocial,
     LocalizacaoGoogle,
     VoltaTopo
+
   }
 })
 </script>
