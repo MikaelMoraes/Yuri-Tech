@@ -6,15 +6,20 @@
           <img class="q-ma-none" src="~assets/LogoVetor.png" style="width: 200px; height: 200px">
         </q-toolbar-title>
       </q-toolbar>
-      <q-tabs v-model="tab" class="bg-menu">
-
-        <q-tab name="inicio" label="Inicio" @click="scroolToInicio" />
+      <q-tabs v-model="tab" class="bg-menu orientation-landscape">
         <q-tab name="servicos" label="Serviços" @click="scroolToServicos" />
         <q-tab name="relatosDeClientes" label="Relatos de Clientes" @click="scroolToRelatos" />
-        <q-tab name="contatos" label="Contatos" @click="scroolToContato" />
+        <q-tab name="contatos" label="Redes Sociais" @click="scroolToContato" />
         <q-tab name="localizacao" label="Localização" @click="scroolToLocalizacao" />
       </q-tabs>
+      <q-tabs v-model="tab" class="bg-menu orientation-portrait">
+        <q-tab name="servicos" label="Serviços" @click="scroolToServicosPortrait" />
+        <q-tab name="relatosDeClientes" label="Relatos" @click="scroolToRelatosPortrait" />
+        <q-tab name="contatos" label="Redes" @click="scroolToContatoPortrait" />
+        <q-tab name="localizacao" label="Localização" @click="scroolToLocalizacaoPortrait" />
+      </q-tabs>
     </q-header>
+
     <q-page-container>
       <router-view />
     </q-page-container>
@@ -100,6 +105,36 @@ export default defineComponent({
     scroolToLocalizacao() {
       window.scrollTo({
         top: 3150,
+        behavior: 'smooth'
+      })
+    },
+    scroolToInicioPortrait() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    },
+    scroolToServicosPortrait() {
+      window.scrollTo({
+        top: 1600,
+        behavior: 'smooth'
+      })
+    },
+    scroolToRelatosPortrait() {
+      window.scrollTo({
+        top: 2550,
+        behavior: 'smooth'
+      })
+    },
+    scroolToContatoPortrait() {
+      window.scrollTo({
+        top: 3100,
+        behavior: 'smooth'
+      })
+    },
+    scroolToLocalizacaoPortrait() {
+      window.scrollTo({
+        top: 4050,
         behavior: 'smooth'
       })
     }
