@@ -9,13 +9,15 @@
       <q-carousel v-model="slide" transition-prev="scale" transition-next="scale" swipeable animated control-color="white"
         navigation padding arrows height="300px" class="bg-color text-dark rounded-borders">
         <q-carousel-slide name="style" class="column no-wrap flex-center">
-          <p class="text-h5 text-white q-pa-xl ">"Melhor da baixada!!! <br>
+
+          <p class="text-h5 text-white q-pa-xl "> <strong>João Garcia</strong><br>
+            "Melhor da baixada!!! <br>
             O cara me tira do sufoco sempre que preciso, conhece muito!!! <br>
             Qualquer dúvida ele sempre tenta ajudar, te ajuda a buscar os melhores preços no mercado para peças e
             periféricos!!!""</p>
         </q-carousel-slide>
         <q-carousel-slide name="tv" class="column no-wrap flex-center">
-          <p class="text-h5 text-white q-pa-xl ">
+          <p class="text-h5 text-white q-pa-xl "> <strong>Bruna Nathália</strong><br>
             "O Yuri é um profissional dedicado, atencioso e super interessado.
             Eu estou muito satisfeita com o meu notebook.
             Vale muito a pena! Espero que ele tenha muito sucesso e que a Yuri Tech Reparos cresça cada dia mais.
@@ -23,14 +25,14 @@
           </p>
         </q-carousel-slide>
         <q-carousel-slide name="layers" class="column no-wrap flex-center">
-          <p class="text-h5 text-white q-pa-xl ">
+          <p class="text-h5 text-white q-pa-xl "><strong>Nicole Rodrigues</strong><br>
             "Me mostrou total confiança, atendeu com todas as informações que eu precisava, um excelente trabalho,
             recomendo
             muito! profissionalismo total ❤️"
           </p>
         </q-carousel-slide>
         <q-carousel-slide name="map" class="column no-wrap flex-center">
-          <p class="text-h5 text-white q-pa-xl ">
+          <p class="text-h5 text-white q-pa-xl "> <strong>Matheus Barros</strong><br>
             "Trabalha de maneira simples e profissional ainda se preocupando com a satisfação do cliente após o conserto.
             <br>
             Mantém em contato até mesmo depois do serviço terminado para ajudar em eventuais problemas e monta em live os
