@@ -12,7 +12,7 @@
             </iframe>
         </div>
         <h4 class="text-white text-center text-bold">Encontre-nos através de um CLICK!!!</h4>
-        <div class="row q-pa-xl text-center">
+        <div class="row q-pb-xl text-center">
             <div class="col-12 ">
                 <a href="https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff[formatted_address]=Yuri%20Tech%20Reparos&dropoff[latitude]=-22.768872959107693&dropoff[longitude]=-43.429339799999994"
                     target="_blank" class="black">
