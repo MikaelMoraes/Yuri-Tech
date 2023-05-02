@@ -7,17 +7,19 @@
         </div>
         <div class=" col-12 col-md-8 text-white text-center  orientation-landscape ">
           <h3 class="text-weight-bold">Veja tambem nossa loja no magalu, apontando a camera ou
-            <a class="text-link" href="#" target="_blank">clicando aqui!!!</a>
+            <a class="text-link" href="https://www.magazinevoce.com.br/magazineyuritechreparos/" target="_blank">clicando
+              aqui!!!</a>
           </h3>
         </div>
         <div class=" col-12 col-md-8 text-white text-center orientation-portrait ">
           <h5 class="text-weight-bold">Veja tambem nossa loja no magalu, apontando a camera ou
-            <a class="text-link" href="#" target="_blank">clicando aqui!!!</a>
+            <a class="text-link" href="https://www.magazinevoce.com.br/magazineyuritechreparos/" target="_blank">clicando
+              aqui!!!</a>
           </h5>
         </div>
       </div>
     </q-parallax>
-    <div class="row justify-center q-pa-xl border-top orientation-portrait">
+    <div class="row q-pa-xl border-top orientation-portrait">
       <div class="col">
         <div class="flip-card">
           <div class="flip-card-inner">
@@ -25,17 +27,19 @@
               <q-img src="~assets/pc-gamer.png"> </q-img>
             </div>
             <div class=" flip-card-back">
-              <div class="text-h6">Our Changing Planet</div>
-              <div class="text-subtitle2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                galley
+              <div class="text-h6 q-mt-md">MONTAGEM DE PC GAMER !</div>
+              <div class="text-subtitle2">
+                Aqui na Yuri Tech Reparos realizamos um orçamento personalizado para a sua necessidade! Buscando sempre o
+                melhor valor, máximo de desempenho e a maior qualidade em peças. Para você que está procurando um PC GAMER
+                para Lives, jogos, editar vídeos e muito mais a Yuri Tech está a sua espera para entrar no mundo dos jogos
+                digitais.
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="row items-center q-pa-xl orientation-portrait ">
+    <div class="row  q-pa-xl orientation-portrait ">
       <div class="col">
         <div class="flip-card">
           <div class="flip-card-inner">
@@ -43,10 +47,11 @@
               <q-img class="q-mt-xl" src="~assets/laptop.png"></q-img>
             </div>
             <div class=" flip-card-back">
-              <div class="text-h6">Our Changing Planet</div>
-              <div class="text-subtitle2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-                Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                galley
+              <div class="text-h6 q-mt-md">NOTEBOOK LENTO? NUNCA MAIS!</div>
+              <div class="text-subtitle2"> Se você pensa em deixar seu notebook mais rápido, você veio ao lugar certo!
+                Aqui na Yuri Tech Reparos você
+                pode fazer um UPGRADE no seu notebook visando uma melhora no desempenho da sua máquina. Venha fazer um
+                orçamento para uma instalação de SSD e/ou MEMÓRIA RAM no seu notebook!
               </div>
             </div>
           </div>
@@ -61,15 +66,12 @@
       <div class="col-6  ">
         <q-card class="my-card text-black card-text-border q-ma-lg  ">
           <q-card-section>
-            <div class="text-h6">Our Changing Planet</div>
-            <div class="text-subtitle2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-              galley
-              of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-              leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-              release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-              software
-              like Aldus PageMaker including versions of Lorem Ipsum
+            <div class="text-h6 text-center">MONTAGEM DE PC GAMER !</div>
+            <div class="text-subtitle2">
+              Aqui na Yuri Tech Reparos realizamos um orçamento personalizado para a sua necessidade! Buscando sempre o
+              melhor valor, máximo de desempenho e a maior qualidade em peças. Para você que está procurando um PC GAMER
+              para Lives, jogos, editar vídeos e muito mais a Yuri Tech está a sua espera para entrar no mundo dos jogos
+              digitais.
             </div>
           </q-card-section>
           <q-card-section class="q-pt-none">
@@ -82,15 +84,11 @@
       <div class="col-6 ">
         <q-card class="my-card text-black card-text-border q-ma-lg">
           <q-card-section>
-            <div class="text-h6">Our Changing Planet</div>
-            <div class="text-subtitle2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
-              Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-              galley
-              of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
-              leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-              release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
-              software
-              like Aldus PageMaker including versions of Lorem Ipsum</div>
+            <div class="text-h6 text-center">NOTEBOOK LENTO? NUNCA MAIS!</div>
+            <div class="text-subtitle2">
+              Se você pensa em deixar seu notebook mais rápido, você veio ao lugar certo! Aqui na Yuri Tech Reparos você
+              pode fazer um UPGRADE no seu notebook visando uma melhora no desempenho da sua máquina. Venha fazer um
+              orçamento para uma instalação de SSD e/ou MEMÓRIA RAM no seu notebook!</div>
           </q-card-section>
           <q-card-section class="q-pt-none">
             {{ lorem }}

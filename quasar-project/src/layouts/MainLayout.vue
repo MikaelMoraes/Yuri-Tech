@@ -1,6 +1,6 @@
 <template>
   <q-layout view="lhh Lpr lff">
-    <q-header elevated>
+    <q-header>
       <q-toolbar class="bg-menu " id="top">
         <q-toolbar-title class="text-center">
           <img class="q-ma-none" src="~assets/LogoVetor.png" style="width: 200px; height: 200px">
@@ -23,7 +23,7 @@
     <q-page-container>
       <router-view />
     </q-page-container>
-    <q-footer elevated class="bg-menu">
+    <q-footer class="bg-menu">
 
       <div class="row items-center q-mt-sm">
         <div class="col-12 col-md-4  text-h5 text-center">
