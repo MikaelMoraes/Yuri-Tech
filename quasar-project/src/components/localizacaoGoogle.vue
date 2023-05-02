@@ -30,17 +30,6 @@
     border-top: solid 10px $card-border-color;
 }
 
-.waze {
-    color: $card-border-color;
-    background-color: $waze;
-    border-radius: 20%;
-}
-
-.waze:hover {
-    color: $waze;
-    background-color: $card-border-color;
-}
-
 .uber {
     color: $dark-page;
     background-color: $card-border-color;
