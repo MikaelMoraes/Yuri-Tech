@@ -1,0 +1,461 @@
+{
+    "processadores": [
+      { 
+        
+        "modelo": "Ryzen 3 1200",
+        "frequencia_base": "3.1 GHz",
+        "frequencia_maxima": "3.4 GHz",
+        "nucleos": 4,
+        "threads": 4,
+        "cache": "10 MB",
+        "socket": "AM4",
+        "consumo_energia": "65 W"
+      },
+      { 
+        "modelo": "Ryzen 3 1300X",
+        "frequencia_base": "3.5 GHz",
+        "frequencia_maxima": "3.7 GHz",
+        "nucleos": 4,
+        "threads": 4,
+        "cache": "10 MB",
+        "socket": "AM4",
+        "consumo_energia": "65 W"
+      },
+      { 
+        "modelo": "Ryzen 3 2200G",
+        "frequencia_base": "3.5 GHz",
+        "frequencia_maxima": "3.7 GHz",
+        "nucleos": 4,
+        "threads": 4,
+        "cache": "6 MB",
+        "socket": "AM4",
+        "consumo_energia": "65 W"
+      },
+      {
+        "modelo": "Ryzen 3 3200G",
+        "frequencia_base": "3.6 GHz",
+        "frequencia_maxima": "4.0 GHz",
+        "nucleos": 4,
+        "threads": 4,
+        "cache": "6 MB",
+        "socket": "AM4",
+        "consumo_energia": "65 W"
+      },
+      {
+        "modelo": "Ryzen 3 3100",
+        "frequencia_base": "3.6 GHz",
+        "frequencia_maxima": "3.9 GHz",
+        "nucleos": 4,
+        "threads": 8,
+        "cache": "18 MB",
+        "socket": "AM4",
+        "consumo_energia": "65 W"
+      },
+      {
+        "modelo": "Ryzen 3 3300X",
+        "frequencia_base": "3.8 GHz",
+        "frequencia_maxima": "4.3 GHz",
+        "nucleos": 4,
+        "threads": 8,
+        "cache": "18 MB",
+        "socket": "AM4",
+        "consumo_energia": "65 W"
+      },
+      {
+        "modelo": "Ryzen 5 1500X",
+        "lançamento": "2017",
+        "nucleos": 4,
+        "threads": 8,
+        "frequência": "3.5 GHz",
+        "frequência_max": "3.7 GHz",
+        "cache": "16 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen"
+      },
+      {
+        "modelo": "Ryzen 5 1600",
+        "lançamento": "2017",
+        "nucleos": 6,
+        "threads": 12,
+        "frequência": "3.2 GHz",
+        "frequência_max": "3.6 GHz",
+        "cache": "16 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen"
+      },
+      {
+        "modelo": "Ryzen 5 2600",
+        "lançamento": "2018",
+        "nucleos": 6,
+        "threads": 12,
+        "frequência": "3.4 GHz",
+        "frequência_max": "3.9 GHz",
+        "cache": "19 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen+"
+      },
+      {
+        "modelo": "Ryzen 5 3600",
+        "lançamento": "2019",
+        "nucleos": 6,
+        "threads": 12,
+        "frequência": "3.6 GHz",
+        "frequência_max": "4.2 GHz",
+        "cache": "35 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 2"
+      },
+      {
+        "modelo": "Ryzen 5 5600X",
+        "lançamento": "2020",
+        "nucleos": 6,
+        "threads": 12,
+        "frequência": "3.7 GHz",
+        "frequência_max": "4.6 GHz",
+        "cache": "32 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 3"
+      },
+      {
+        "modelo": "Ryzen 5 5600G",
+        "lançamento": "2021",
+        "nucleos": 6,
+        "threads": 12,
+        "frequência": "3.9 GHz",
+        "frequência_max": "4.4 GHz",
+        "cache": "16 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 3",
+        "gráficos_integrados": true
+      },
+      {
+        "modelo": "Ryzen 5 5800X",
+        "lançamento": "2020",
+        "nucleos": 8,
+        "threads": 16,
+        "frequência": "3.8 GHz",
+        "frequência_max": "4.7 GHz",
+        "cache": "36 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 3"
+      },
+      {
+        "modelo": "Ryzen 7 1800X",
+        "lançamento": "2017",
+        "nucleos": 8,
+        "threads": 16,
+        "frequência": "3.6 GHz",
+        "frequência_max": "4.0 GHz",
+        "cache": "20 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen"
+      },
+      {
+        "modelo": "Ryzen 7 2700X",
+        "lançamento": "2018",
+        "nucleos": 8,
+        "threads": 16,
+        "frequência": "3.7 GHz",
+        "frequência_max": "4.3 GHz",
+        "cache": "20 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen+"
+      },
+      {
+        "modelo": "Ryzen 7 3700X",
+        "lançamento": "2019",
+        "nucleos": 8,
+        "threads": 16,
+        "frequência": "3.6 GHz",
+        "frequência_max": "4.4 GHz",
+        "cache": "36 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 2"
+      },
+      {
+        "modelo": "Ryzen 7 4700G",
+        "lançamento": "2020",
+        "nucleos": 8,
+        "threads": 16,
+        "frequência": "3.6 GHz",
+        "frequência_max": "4.4 GHz",
+        "cache": "12 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 2",
+        "gráficos_integrados": true
+      },
+      {
+        "modelo": "Ryzen 7 5800X",
+        "lançamento": "2020",
+        "nucleos": 8,
+        "threads": 16,
+        "frequência": "3.8 GHz",
+        "frequência_max": "4.7 GHz",
+        "cache": "36 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 3"
+      },
+      {
+        "modelo": "Ryzen 7 5700G",
+        "lançamento": "2021",
+        "nucleos": 8,
+        "threads": 16,
+        "frequência": "3.8 GHz",
+        "frequência_max": "4.6 GHz",
+        "cache": "16 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 3",
+        "gráficos_integrados": true
+      },
+      {
+        "modelo": "Ryzen 9 3900X",
+        "lançamento": "2019",
+        "nucleos": 12,
+        "threads": 24,
+        "frequência": "3.8 GHz",
+        "frequência_max": "4.6 GHz",
+        "cache": "70 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 2"
+      },
+      {
+        "modelo": "Ryzen 9 3950X",
+        "lançamento": "2019",
+        "nucleos": 16,
+        "threads": 32,
+        "frequência": "3.5 GHz",
+        "frequência_max": "4.7 GHz",
+        "cache": "72 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 2"
+      },
+      {
+        "modelo": "Ryzen 9 5900X",
+        "lançamento": "2020",
+        "nucleos": 12,
+        "threads": 24,
+        "frequência": "3.7 GHz",
+        "frequência_max": "4.8 GHz",
+        "cache": "70 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 3"
+      },
+      {
+        "modelo": "Ryzen 9 5950X",
+        "lançamento": "2020",
+        "nucleos": 16,
+        "threads": 32,
+        "frequência": "3.4 GHz",
+        "frequência_max": "4.9 GHz",
+        "cache": "72 MB",
+        "soquete": "AM4",
+        "arquitetura": "Zen 3"
+      }
+    ],
+    "placa_mae": [
+      {
+        "modelo": "ASUS Prime A320M-K",
+        "chipset": "AMD A320",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "GIGABYTE GA-A320M-S2H",
+        "chipset": "AMD A320",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "MSI A320M PRO-VD/S",
+        "chipset": "AMD A320",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "ASRock A320M-HDV R4.0",
+        "chipset": "AMD A320",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "Biostar A320MH PRO",
+        "chipset": "AMD A320",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "ASUS ROG STRIX B450-F Gaming",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "GIGABYTE B450 AORUS PRO",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "MSI B450 TOMAHAWK MAX",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "ASRock B450M Steel Legend",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "Biostar B450MH",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "ASUS PRIME A520M-K",
+        "chipset": "AMD A520",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "GIGABYTE A520M S2H",
+        "chipset": "AMD A520",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "MSI A520M-A PRO",
+        "chipset": "AMD A520",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "ASRock A520M-HDV",
+        "chipset": "AMD A520",
+        "soquete": "AM4"
+      },
+      {
+        "modelo": "Biostar A520MH",
+        "chipset": "AMD A520",
+        "soquete": "AM4"
+      }
+    ],
+    "armazenamento": [
+      { 
+        "tipo":"HD",
+        "capacidade": "120GB"
+      },
+      { 
+        "tipo":"HD",
+        "capacidade": "240GB"
+      },
+      { 
+        "tipo":"HD",
+        "capacidade": "480GB"
+      },
+      { 
+        "tipo":"HD",
+        "capacidade": "1TB"
+      },
+      { 
+        "tipo":"SSD",
+        "capacidade": "120GB"
+      },
+      { 
+        "tipo":"SSD",
+        "capacidade": "240GB"
+      },
+      { 
+        "tipo":"SSD",
+        "capacidade": "480GB"
+      },
+      { 
+        "tipo":"SSD",
+        "capacidade": "1TB"
+      },
+      { 
+        "tipo":"NVME",
+        "capacidade": "120GB"
+      },
+      { 
+        "tipo":"NVME",
+        "capacidade": "240GB"
+      },
+      { 
+        "tipo":"NVME",
+        "capacidade": "480GB"
+      },
+      { 
+        "tipo":"NVME",
+        "capacidade": "1TB"
+      }
+    ],
+    "memoria_ram": [
+      {
+        "quantidade":"1x",
+        "capacidade": "2GB"
+      },
+      {
+        "quantidade":"2x",
+        "capacidade": "2GB"
+      },
+      {
+        "quantidade":"4x",
+        "capacidade": "2GB"
+      },
+      {
+        "quantidade":"1x",
+        "capacidade": "4GB"
+      },
+      {
+        "quantidade":"2x",
+        "capacidade": "4GB"
+      },
+      {
+        "quantidade":"4x",
+        "capacidade": "4GB"
+      },
+      {
+        "quantidade":"1x",
+        "capacidade": "8GB"
+      },
+      {
+        "quantidade":"2x",
+        "capacidade": "8GB"
+      },
+      {
+        "quantidade":"4x",
+        "capacidade": "8GB"
+      },
+      {
+        "quantidade":"1x",
+        "capacidade": "16GB"
+      },
+      {
+        "quantidade":"2x",
+        "capacidade": "16GB"
+      },
+      {
+        "quantidade":"4x",
+        "capacidade": "16GB"
+      },
+      {
+        "quantidade":"1x",
+        "capacidade": "32GB"
+      }, 
+       {
+        "quantidade":"2x",
+        "capacidade": "32GB"
+      }, 
+       {
+        "quantidade":"4x",
+        "capacidade": "32GB"
+      }
+    ],
+    "fonte": [
+      {
+        "potencia": "200W"
+      },
+      {
+        "potencia": "300W"
+      },
+      {
+        "potencia": "500W"
+      },
+      {
+        "potencia": "750W"
+      },
+      {
+        "potencia": "1000W"
+      }
+    ]
+  }

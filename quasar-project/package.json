@@ -1,21 +1,23 @@
 {
   "name": "quasar-project",
   "version": "0.0.1",
-  "description": "A Quasar Project",
-  "productName": "Quasar App",
-  "author": "Mikael Vitot <68564996+MikaelMoraes@users.noreply.github.com>",
   "private": true,
+  "description": "A Quasar Project",
+  "author": "Mikael Vitot <68564996+MikaelMoraes@users.noreply.github.com>",
   "scripts": {
+    "build": "quasar build",
     "lint": "eslint --ext .js,.vue ./",
+    "dev": "quasar dev",
     "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
     "test": "echo \"No test specified\" && exit 0",
-    "dev": "quasar dev",
-    "build": "quasar build"
+    "backend": "npx json-server --watch db/db.json"
   },
   "dependencies": {
     "@fawmi/vue-google-maps": "^0.9.79",
     "@quasar/extras": "^1.0.0",
+    "axios": "^1.4.0",
     "core-js": "^3.6.5",
+    "json-serve": "^0.1.0",
     "quasar": "^2.6.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0",
@@ -28,7 +30,10 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-vue": "^9.0.0",
     "eslint-webpack-plugin": "^3.1.1",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "sass": "1.32.12",
+    "sass-loader": "^12.0.0",
+    "vue-cli-plugin-quasar": "~5.0.2"
   },
   "browserslist": [
     "last 10 Chrome versions",
@@ -45,5 +50,6 @@
     "node": ">= 12.22.1",
     "npm": ">= 6.13.4",
     "yarn": ">= 1.21.1"
-  }
+  },
+  "productName": "Quasar App"
 }

@@ -39,6 +39,12 @@
         </div>
       </div>
     </div>
+    <div class=" row items-center q-pa-xl orientation-portrait justify-center">
+      <div class=" col-10  text-center">
+        <router-link class="btn-montagem-portrait " to="/montagem"><strong>Monte seu computador conosco!!</strong> </router-link>
+     
+      </div>
+    </div>
     <div class="row  q-pa-xl orientation-portrait ">
       <div class="col">
         <div class="flip-card">
@@ -74,10 +80,13 @@
               digitais.
             </div>
           </q-card-section>
-          <q-card-section class="q-pt-none">
-            {{ lorem }}
-          </q-card-section>
         </q-card>
+      </div>
+    </div>
+    <div class=" row items-center q-pa-xl orientation-landscape justify-center">
+      <div class=" col-10  text-center">
+        <router-link class="btn-montagem " to="/montagem"><strong>Monte seu computador conosco!!</strong> </router-link>
+     
       </div>
     </div>
     <div class=" row items-center q-pa-xl orientation-landscape justify-center ">
@@ -172,6 +181,22 @@
   border-radius: 50px;
   color: white;
   transform: rotateY(180deg);
+}
+.btn-montagem {
+  background-color: $warning ;
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.btn-montagem-portrait {
+  background-color: $warning ;
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
 }
 </style>
   

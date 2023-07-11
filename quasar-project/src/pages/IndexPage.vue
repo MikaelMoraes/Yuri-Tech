@@ -1,6 +1,5 @@
 <template>
   <q-page class=" bg-color">
-
     <InicioTopo />
     <ServicosDisponiveis />
     <RelatosClientes />

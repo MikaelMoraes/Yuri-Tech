@@ -3,7 +3,10 @@
     <q-header>
       <q-toolbar class="bg-menu " id="top">
         <q-toolbar-title class="text-center">
-          <img class="q-ma-none" src="~assets/LogoVetor.png" style="width: 200px; height: 200px">
+          <router-link  to="/"> 
+            <img class="q-ma-none" src="~assets/LogoVetor.png" style="width: 200px; height: 200px">
+           </router-link>
+         
         </q-toolbar-title>
       </q-toolbar>
       <q-tabs v-model="tab" class="bg-menu orientation-landscape">
@@ -64,6 +67,7 @@
 .text-link:hover {
   color: black;
 }
+
 </style>
 <script>
 import { defineComponent } from 'vue'
