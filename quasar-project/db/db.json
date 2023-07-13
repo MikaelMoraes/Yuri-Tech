@@ -1,7 +1,7 @@
 {
     "processadores": [
       { 
-        
+        "imagem":"https://en.wikichip.org/w/images/2/27/amd_ryzen_3_logo.png",
         "modelo": "Ryzen 3 1200",
         "frequencia_base": "3.1 GHz",
         "frequencia_maxima": "3.4 GHz",
@@ -12,6 +12,7 @@
         "consumo_energia": "65 W"
       },
       { 
+        "imagem":"https://en.wikichip.org/w/images/2/27/amd_ryzen_3_logo.png",
         "modelo": "Ryzen 3 1300X",
         "frequencia_base": "3.5 GHz",
         "frequencia_maxima": "3.7 GHz",
@@ -22,6 +23,7 @@
         "consumo_energia": "65 W"
       },
       { 
+        "imagem":"https://en.wikichip.org/w/images/2/27/amd_ryzen_3_logo.png",
         "modelo": "Ryzen 3 2200G",
         "frequencia_base": "3.5 GHz",
         "frequencia_maxima": "3.7 GHz",
@@ -32,6 +34,7 @@
         "consumo_energia": "65 W"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/2/27/amd_ryzen_3_logo.png",
         "modelo": "Ryzen 3 3200G",
         "frequencia_base": "3.6 GHz",
         "frequencia_maxima": "4.0 GHz",
@@ -42,6 +45,7 @@
         "consumo_energia": "65 W"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/2/27/amd_ryzen_3_logo.png",
         "modelo": "Ryzen 3 3100",
         "frequencia_base": "3.6 GHz",
         "frequencia_maxima": "3.9 GHz",
@@ -52,6 +56,7 @@
         "consumo_energia": "65 W"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/2/27/amd_ryzen_3_logo.png",
         "modelo": "Ryzen 3 3300X",
         "frequencia_base": "3.8 GHz",
         "frequencia_maxima": "4.3 GHz",
@@ -62,6 +67,7 @@
         "consumo_energia": "65 W"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/a/a0/amd_ryzen_5_logo.png",
         "modelo": "Ryzen 5 1500X",
         "lançamento": "2017",
         "nucleos": 4,
@@ -73,6 +79,7 @@
         "arquitetura": "Zen"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/a/a0/amd_ryzen_5_logo.png",
         "modelo": "Ryzen 5 1600",
         "lançamento": "2017",
         "nucleos": 6,
@@ -84,6 +91,7 @@
         "arquitetura": "Zen"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/a/a0/amd_ryzen_5_logo.png",
         "modelo": "Ryzen 5 2600",
         "lançamento": "2018",
         "nucleos": 6,
@@ -95,6 +103,7 @@
         "arquitetura": "Zen+"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/a/a0/amd_ryzen_5_logo.png",
         "modelo": "Ryzen 5 3600",
         "lançamento": "2019",
         "nucleos": 6,
@@ -106,6 +115,7 @@
         "arquitetura": "Zen 2"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/a/a0/amd_ryzen_5_logo.png",
         "modelo": "Ryzen 5 5600X",
         "lançamento": "2020",
         "nucleos": 6,
@@ -117,6 +127,7 @@
         "arquitetura": "Zen 3"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/a/a0/amd_ryzen_5_logo.png",
         "modelo": "Ryzen 5 5600G",
         "lançamento": "2021",
         "nucleos": 6,
@@ -129,6 +140,7 @@
         "gráficos_integrados": true
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/a/a0/amd_ryzen_5_logo.png",
         "modelo": "Ryzen 5 5800X",
         "lançamento": "2020",
         "nucleos": 8,
@@ -140,6 +152,7 @@
         "arquitetura": "Zen 3"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/4/4e/amd_ryzen_7_logo.png",
         "modelo": "Ryzen 7 1800X",
         "lançamento": "2017",
         "nucleos": 8,
@@ -151,6 +164,7 @@
         "arquitetura": "Zen"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/4/4e/amd_ryzen_7_logo.png",
         "modelo": "Ryzen 7 2700X",
         "lançamento": "2018",
         "nucleos": 8,
@@ -162,6 +176,7 @@
         "arquitetura": "Zen+"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/4/4e/amd_ryzen_7_logo.png",
         "modelo": "Ryzen 7 3700X",
         "lançamento": "2019",
         "nucleos": 8,
@@ -173,6 +188,7 @@
         "arquitetura": "Zen 2"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/4/4e/amd_ryzen_7_logo.png",
         "modelo": "Ryzen 7 4700G",
         "lançamento": "2020",
         "nucleos": 8,
@@ -185,6 +201,7 @@
         "gráficos_integrados": true
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/4/4e/amd_ryzen_7_logo.png",
         "modelo": "Ryzen 7 5800X",
         "lançamento": "2020",
         "nucleos": 8,
@@ -196,6 +213,7 @@
         "arquitetura": "Zen 3"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/4/4e/amd_ryzen_7_logo.png",
         "modelo": "Ryzen 7 5700G",
         "lançamento": "2021",
         "nucleos": 8,
@@ -208,6 +226,7 @@
         "gráficos_integrados": true
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/0/01/amd_ryzen_9_logo.png",
         "modelo": "Ryzen 9 3900X",
         "lançamento": "2019",
         "nucleos": 12,
@@ -219,6 +238,7 @@
         "arquitetura": "Zen 2"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/0/01/amd_ryzen_9_logo.png",
         "modelo": "Ryzen 9 3950X",
         "lançamento": "2019",
         "nucleos": 16,
@@ -230,6 +250,7 @@
         "arquitetura": "Zen 2"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/0/01/amd_ryzen_9_logo.png",
         "modelo": "Ryzen 9 5900X",
         "lançamento": "2020",
         "nucleos": 12,
@@ -241,6 +262,7 @@
         "arquitetura": "Zen 3"
       },
       {
+        "imagem":"https://en.wikichip.org/w/images/0/01/amd_ryzen_9_logo.png",
         "modelo": "Ryzen 9 5950X",
         "lançamento": "2020",
         "nucleos": 16,
@@ -254,78 +276,93 @@
     ],
     "placa_mae": [
       {
+        "imagem":"https://www.asus.com/media/BR/products/ekLsMewA2hkMjqfV/P_setting_xxx_0_90_end_500.png",
         "modelo": "ASUS Prime A320M-K",
         "chipset": "AMD A320",
         "soquete": "AM4"
       },
       {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/35066262f40b0cad56f530831b5c9e85/Product/26365/png/500",
         "modelo": "GIGABYTE GA-A320M-S2H",
         "chipset": "AMD A320",
         "soquete": "AM4"
       },
       {
+        "imagem":"https://asset.msi.com/resize/image/global/product/product_0_20170407103952_58e6fbf8dd80c.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
         "modelo": "MSI A320M PRO-VD/S",
         "chipset": "AMD A320",
         "soquete": "AM4"
       },
       {
+        "imagem":"https://www.asrock.com/mb/photo/A320M-HD(M1).png",
         "modelo": "ASRock A320M-HDV R4.0",
         "chipset": "AMD A320",
         "soquete": "AM4"
       },
       {
+        "imagem":"https://www.biostar-europe.com/upload/Motherboard/bA320MH_45_BOX_Aa3d.png",
         "modelo": "Biostar A320MH PRO",
         "chipset": "AMD A320",
         "soquete": "AM4"
       },
       {
-        "modelo": "ASUS ROG STRIX B450-F Gaming",
-        "chipset": "AMD B450",
-        "soquete": "AM4"
-      },
-      {
-        "modelo": "GIGABYTE B450 AORUS PRO",
-        "chipset": "AMD B450",
-        "soquete": "AM4"
-      },
-      {
-        "modelo": "MSI B450 TOMAHAWK MAX",
-        "chipset": "AMD B450",
-        "soquete": "AM4"
-      },
-      {
-        "modelo": "ASRock B450M Steel Legend",
-        "chipset": "AMD B450",
-        "soquete": "AM4"
-      },
-      {
-        "modelo": "Biostar B450MH",
-        "chipset": "AMD B450",
-        "soquete": "AM4"
-      },
-      {
+        "imagem":"https://www.asus.com/media/global/products/klnhxkefsyvowbzy/P_setting_xxx_0_90_end_500.png",
         "modelo": "ASUS PRIME A520M-K",
         "chipset": "AMD A520",
         "soquete": "AM4"
       },
       {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/f3a551ef3db7d703ac2eb507d22e90ea/Product/25826/png/500",
         "modelo": "GIGABYTE A520M S2H",
         "chipset": "AMD A520",
         "soquete": "AM4"
       },
       {
+        "imagem":"https://cdn.dooca.store/332/products/4-56.png?v=1669729281&webp=0",
         "modelo": "MSI A520M-A PRO",
         "chipset": "AMD A520",
         "soquete": "AM4"
       },
       {
+        "imagem":"https://techuniquest.com/cdn/shop/products/715vN_dU2dL._AC_SL1200_-removebg-preview_1200x1200.png?v=1637569008",
         "modelo": "ASRock A520M-HDV",
         "chipset": "AMD A520",
         "soquete": "AM4"
       },
       {
+        "imagem":"https://www.biostar.com.tw/picture/Review/415/A520MH%E7%84%A1%E7%B5%B2%E5%8D%B0%E4%B8%BB%E6%9D%BF_%E5%BD%A9%E7%9B%92%E5%90%88%E6%88%90%E5%9C%96_45_BOX.png",
         "modelo": "Biostar A520MH",
         "chipset": "AMD A520",
+        "soquete": "AM4"
+      },
+      {
+        "imagem":"https://dlcdnwebimgs.asus.com/gain/E9DD4701-C076-42B2-8D53-7E9055A63D04/w1000/h732",
+        "modelo": "ASUS ROG STRIX B450-F Gaming",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/65382c2b2fe5ab4c8c984caf95729748/Product/21281/Png",
+        "modelo": "GIGABYTE B450 AORUS PRO",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "imagem":"https://asset.msi.com/resize/image/global/product/product_1_20200806161944_5f2bbd20c4441.png62405b38c58fe0f07fcef2367d8a9ba1/600.png",
+        "modelo": "MSI B450 TOMAHAWK MAX",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "imagem":"https://www.asrock.com/mb/photo/B450M%20Steel%20Legend(M1).png",
+        "modelo": "ASRock B450M Steel Legend",
+        "chipset": "AMD B450",
+        "soquete": "AM4"
+      },
+      {
+        "imagem":"https://www.biostar-europe.com/upload/Motherboard/b20201015.png",
+        "modelo": "Biostar B450MH",
+        "chipset": "AMD B450",
         "soquete": "AM4"
       }
     ],
@@ -456,6 +493,118 @@
       },
       {
         "potencia": "1000W"
+      }
+    ],
+    "placas_video": [
+      {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/5aed947bd3e591e1b06cf962c3492667/Product/21866/Png",
+        "modelo": "NVIDIA GeForce GTX 1650",
+        "fabricante": "NVIDIA",
+        "memoria": "4GB GDDR5",
+        "clock_base": "1.485 MHz",
+        "clock_boost": "1.665 MHz",
+        "interface_memoria": "128-bit",
+        "cuda_cores": 896,
+        "consumo_energia": "75W"
+      },
+      {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/64c1c75cc68fc0214349635c065d6968/Product/24225/Png",
+        "modelo": "NVIDIA GeForce GTX 1660",
+        "fabricante": "NVIDIA",
+        "memoria": "6GB GDDR5",
+        "clock_base": "1.530 MHz",
+        "clock_boost": "1.785 MHz",
+        "interface_memoria": "192-bit",
+        "cuda_cores": 1408,
+        "consumo_energia": "120W"
+      },
+      {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/0ce30a8dc0a9b0d25f013c7f18cce6be/Product/24099/Png",
+        "modelo": "NVIDIA GeForce RTX 2060",
+        "fabricante": "NVIDIA",
+        "memoria": "6GB GDDR6",
+        "clock_base": "1.365 MHz",
+        "clock_boost": "1.680 MHz",
+        "interface_memoria": "192-bit",
+        "cuda_cores": 1920,
+        "consumo_energia": "160W"
+      },
+      {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/8ba1288301d79f753d61756eacc82943/Product/23369/Png",
+        "modelo": "NVIDIA GeForce RTX 2070",
+        "fabricante": "NVIDIA",
+        "memoria": "8GB GDDR6",
+        "clock_base": "1.410 MHz",
+        "clock_boost": "1.620 MHz",
+        "interface_memoria": "256-bit",
+        "cuda_cores": 2304,
+        "consumo_energia": "175W"
+      },
+      {
+        "imagem":"https://images.evga.com/articles/01249/main/product_box.png",
+        "modelo": "NVIDIA GeForce RTX 2080",
+        "fabricante": "NVIDIA",
+        "memoria": "8GB GDDR6",
+        "clock_base": "1.515 GHz",
+        "clock_boost": "1.710 GHz",
+        "interface_memoria": "256-bit",
+        "cuda_cores": 2944,
+        "consumo_energia": "225W"
+      },
+      {
+        "imagem":"https://asset.msi.com/resize/image/global/product/product_1641350745e8eaaffc8f84377957eb93490d5a3f6e.png62405b38c58fe0f07fcef2367d8a9ba1/1024.png",
+        "modelo": "NVIDIA GeForce RTX 3050",
+        "fabricante": "NVIDIA",
+        "memoria": "4GB GDDR6",
+        "clock_base": "1.320 MHz",
+        "clock_boost": "1.725 MHz",
+        "interface_memoria": "128-bit",
+        "cuda_cores": 2048,
+        "consumo_energia": "90W"
+      },
+      {
+        "imagem":"https://lasonarenagaming.com/wp-content/uploads/2020/12/KO-RTX3060TI-8G-W_Boxvgalogo-24.png",
+        "modelo": "NVIDIA GeForce RTX 3060",
+        "fabricante": "NVIDIA",
+        "memoria": "12GB GDDR6",
+        "clock_base": "1.320 MHz",
+        "clock_boost": "1.777 MHz",
+        "interface_memoria": "192-bit",
+        "cuda_cores": 3584,
+        "consumo_energia": "170W"
+      },
+      {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/da64643ca9af2f1b8ded8e595448ffed/Product/26737/Png",
+        "modelo": "NVIDIA GeForce RTX 3070",
+        "fabricante": "NVIDIA",
+        "memoria": "8GB GDDR6",
+        "clock_base": "1.50 GHz",
+        "clock_boost": "1.73 GHz",
+        "interface_memoria": "256-bit",
+        "cuda_cores": 5888,
+        "consumo_energia": "220W"
+      },
+      {
+        "imagem":"https://static.gigabyte.com/StaticFile/Image/Global/1f7a4b7372688a9959a997aa486252e1/Product/25956/Png",
+        "modelo": "NVIDIA GeForce RTX 3080",
+        "fabricante": "NVIDIA",
+        "memoria": "10GB GDDR6X",
+        "clock_base": "1.44 GHz",
+        "clock_boost": "1.71 GHz",
+        "interface_memoria": "320-bit",
+        "cuda_cores": 8704,
+        "consumo_energia": "320W"
+      },
+      {
+        "imagem":"https://images.evga.com/products/gallery//png/24G-P5-3985-KR_XL_1.png",
+        "modelo": "NVIDIA GeForce RTX 3090",
+        "fabricante": "NVIDIA",
+        "memoria": "24GB GDDR6X",
+        "clock_base": "1.40 GHz",
+        "clock_boost": "1.70 GHz",
+        "interface_memoria": "384-bit",
+        "cuda_cores": 10496,
+        "consumo_energia": "350W"
       }
     ]
   }
