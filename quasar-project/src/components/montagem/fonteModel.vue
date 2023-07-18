@@ -19,12 +19,12 @@
                 </q-card-section>
                 <q-card-section class="q-pt-none" v-model="seleciona_fonte">
                     <div class="row items-center q-pa-xl  justify-center text-white border-top"
-                        v-for="caracteristica in fonte" :key="caracteristica.potencia" :value="caracteristica.potencia">
+                        v-for="caracteristica in fonte.fonte" :key="caracteristica.potencia" :value="caracteristica.potencia">
                         <div class="col-6">
                              <p>potencia: {{ caracteristica.potencia }}</p>
                         </div>
                         <div class="col-6 text-center">
-                            <q-btn label="Incluir" color="primary"  @click="seleciona_fonte =` ${caracteristica.potencia}`" v-close-popup/>
+                            <q-btn label="Incluir" color="primary"  @click="seleciona_fonte =`${caracteristica.potencia}`, enviarFonte()" v-close-popup/>
                         </div>
                     </div>
                 </q-card-section>
@@ -45,6 +45,7 @@
 }
 </style>
 <script>
+import axios from 'axios'
 import { defineComponent } from 'vue'
 import { ref } from 'vue'
 export default defineComponent({
@@ -56,11 +57,21 @@ export default defineComponent({
             seleciona_fonte: ""
         }
     },
-    mounted() {
-        const baseUrl = 'http://localhost:3000'
-        fetch(`${baseUrl}/fonte`)
-            .then(response => response.json())
-            .then(setup => this.fonte = setup)
+    created() {
+        axios.get('/DB/db.json')
+            .then(response => {
+                this.fonte = response.data;
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o arquivo JSON:', error);
+            });
+    },
+    methods:{
+        enviarFonte(){
+            this.$emit('fonte',
+                this.seleciona_fonte
+            )
+        }
     }
 
 })

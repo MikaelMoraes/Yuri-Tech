@@ -5,10 +5,11 @@
 
                 <q-icon name="fa-solid fa-microchip" color="white" size="4.5rem" />
                 <div class="text-h6 text-white"> Processador</div>
-
+             
+              
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-md-4  text-white text-center">
-             
+
                 <p class="text-h6"><strong>{{ seleciona_processador }}</strong></p>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 col-md-4  text-center">
@@ -22,7 +23,7 @@
                 </q-card-section>
                 <q-card-section class="q-pt-none" v-model="seleciona_processador">
                     <div class="row items-center q-pa-xl  justify-center text-white border-top"
-                        v-for="caracteristica in processadores" :key="caracteristica.modelo" :value="caracteristica.modelo">
+                        v-for="caracteristica in processadores.processadores" :key="caracteristica.modelo" :value="caracteristica.modelo">
                         <div class="col-12 ">
                             <p class="text-h6">{{ caracteristica.modelo }}</p>
                         </div>
@@ -37,11 +38,12 @@
                             </p>
                         </div>
                         <div class="col-12 col-lg-6 col-md-6 text-center">
-                            <q-img :src="`${caracteristica.imagem}`" alt=""  style="height: 140px; max-width: 150px">
-                                </q-img>
+                            <q-img :src="`${caracteristica.imagem}`" alt="" style="height: 140px; max-width: 150px">
+                            </q-img>
                         </div>
                         <div class="col-12 text-center q-pt-xl">
-                            <q-btn label="Incluir" color="primary"  @click="seleciona_processador = caracteristica.modelo" v-close-popup/>
+                            <q-btn label="Incluir" color="primary"
+                                @click="seleciona_processador = caracteristica.modelo, enviarProcessador()" v-close-popup />
                         </div>
                     </div>
                 </q-card-section>
@@ -62,6 +64,7 @@
 }
 </style>
 <script>
+import axios from 'axios'
 import { defineComponent } from 'vue'
 import { ref } from 'vue'
 export default defineComponent({
@@ -73,11 +76,22 @@ export default defineComponent({
             seleciona_processador: ""
         }
     },
-    mounted() {
-        const baseUrl = 'http://localhost:3000'
-        fetch(`${baseUrl}/processadores`)
-            .then(response => response.json())
-            .then(setup => this.processadores = setup)
+    created() {
+        axios.get('/DB/db.json')
+            .then(response => {
+                this.processadores = response.data;
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o arquivo JSON:', error);
+            });
+    },
+    methods: {
+        enviarProcessador() {
+
+            this.$emit('processador',
+                this.seleciona_processador
+            )
+        }
     }
 
 })

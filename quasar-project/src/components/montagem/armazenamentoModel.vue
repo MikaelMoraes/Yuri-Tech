@@ -21,13 +21,13 @@
                 </q-card-section>
                 <q-card-section class="q-pt-none" v-model="seleciona_armazenamento">
                     <div class="row items-center q-pa-xl  justify-center text-white border-top"
-                        v-for="caracteristica in armazenamento" :key="caracteristica.tipo" :value="caracteristica.tipo">
+                        v-for="caracteristica in armazenamento.armazenamento" :key="caracteristica.tipo" :value="caracteristica.tipo">
                         <div class="col-6">
                             <p>{{ caracteristica.tipo }}</p>
                              <p>Capacidade: {{ caracteristica.capacidade }}</p>
                         </div>
                         <div class="col-6 text-center">
-                            <q-btn label="Incluir" color="primary"  @click="seleciona_armazenamento =` ${caracteristica.capacidade} ${ caracteristica.tipo}`" v-close-popup/>
+                            <q-btn label="Incluir" color="primary"  @click="seleciona_armazenamento =` ${caracteristica.capacidade} ${ caracteristica.tipo}`, enviarArmazenamento()" v-close-popup/>
                         </div>
                     </div>
                 </q-card-section>
@@ -48,6 +48,7 @@
 }
 </style>
 <script>
+import axios from 'axios'
 import { defineComponent } from 'vue'
 import { ref } from 'vue'
 export default defineComponent({
@@ -59,11 +60,21 @@ export default defineComponent({
             seleciona_armazenamento: ""
         }
     },
-    mounted() {
-        const baseUrl = 'http://localhost:3000'
-        fetch(`${baseUrl}/armazenamento`)
-            .then(response => response.json())
-            .then(setup => this.armazenamento = setup)
+    created() {
+        axios.get('/DB/db.json')
+            .then(response => {
+                this.armazenamento = response.data;
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o arquivo JSON:', error);
+            });
+    },
+    methods:{
+        enviarArmazenamento(){
+            this.$emit('armazenamento',
+                this.seleciona_armazenamento
+            )
+        }
     }
 
 })

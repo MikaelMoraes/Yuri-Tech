@@ -22,13 +22,13 @@
                 </q-card-section>
                 <q-card-section class="q-pt-none" v-model="seleciona_memoria">
                     <div class="row items-center q-pa-xl  justify-center text-white border-top"
-                        v-for="caracteristica in memoria_ram" :key="caracteristica.capacidade" :value="caracteristica.capacidade">
+                        v-for="caracteristica in memoria_ram.memoria_ram" :key="caracteristica.capacidade" :value="caracteristica.capacidade">
                         <div class="col-12">
                             <p>{{ caracteristica.capacidade }}</p>
                             <p>quantidade: {{ caracteristica.quantidade }}</p>
                         </div>
                         <div class="col-12 text-center">
-                            <q-btn label="Incluir" color="primary"  @click="seleciona_memoria =` ${caracteristica.capacidade} ${ caracteristica.quantidade}`" v-close-popup/>
+                            <q-btn label="Incluir" color="primary"  @click="seleciona_memoria =` ${caracteristica.capacidade} ${ caracteristica.quantidade}`, enviarMemoria()" v-close-popup/>
                         </div>
                     </div>
                 </q-card-section>
@@ -49,6 +49,7 @@
 }
 </style>
 <script>
+import axios from 'axios'
 import { defineComponent } from 'vue'
 import { ref } from 'vue'
 export default defineComponent({
@@ -60,11 +61,21 @@ export default defineComponent({
             seleciona_memoria: ""
         }
     },
-    mounted() {
-        const baseUrl = 'http://localhost:3000'
-        fetch(`${baseUrl}/memoria_ram`)
-            .then(response => response.json())
-            .then(setup => this.memoria_ram = setup)
+    created() {
+        axios.get('/DB/db.json')
+            .then(response => {
+                this.memoria_ram = response.data;
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o arquivo JSON:', error);
+            });
+    },
+    methods:{
+        enviarMemoria(){
+            this.$emit('memoriaRam',
+                this.seleciona_memoria
+            )
+        }
     }
 
 })

@@ -40,9 +40,10 @@
       </div>
     </div>
     <div class=" row items-center q-pa-xl orientation-portrait justify-center">
-      <div class=" col-10  text-center">
-        <router-link class="btn-montagem-portrait " to="/montagem"><strong>Monte seu computador conosco!!</strong> </router-link>
-     
+      <div class=" col-12  text-center">
+        <router-link class="btn-montagem-portrait bounce " to="/montagem"><strong>Monte seu computador conosco!!</strong>
+        </router-link>
+
       </div>
     </div>
     <div class="row  q-pa-xl orientation-portrait ">
@@ -85,8 +86,8 @@
     </div>
     <div class=" row items-center q-pa-xl orientation-landscape justify-center">
       <div class=" col-10  text-center">
-        <router-link class="btn-montagem " to="/montagem"><strong>Monte seu computador conosco!!</strong> </router-link>
-     
+        <router-link class="btn-montagem bounce " to="/montagem"><strong>Monte seu computador conosco!!</strong> </router-link>
+
       </div>
     </div>
     <div class=" row items-center q-pa-xl orientation-landscape justify-center ">
@@ -122,11 +123,12 @@
 .text-link {
   color: $warning;
   text-decoration: none;
+
+  &:hover {
+    color: $accent;
+  }
 }
 
-.text-link:hover {
-  color: $accent;
-}
 
 .border-top {
   border-top: solid 5px $borda-top;
@@ -182,6 +184,7 @@
   color: white;
   transform: rotateY(180deg);
 }
+
 .btn-montagem {
   background-color: $warning ;
   color: black;
@@ -189,7 +192,21 @@
   padding: 20px;
   text-decoration: none;
   border-radius: 10px;
+  &:hover{
+    color: $card-border-color;
+  }
 }
+.bounce {
+    transform: perspective(1px) translateZ(0);
+    transition-duration:  0.5s;
+&:hover {
+    transform: scale(1.2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+
+}
+    
+}
+
 .btn-montagem-portrait {
   background-color: $warning ;
   color: black;

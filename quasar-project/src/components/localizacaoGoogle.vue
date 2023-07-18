@@ -35,14 +35,17 @@
     background-color: $card-border-color;
     border: solid $dark;
     border-radius: 20%;
+
+    &:hover {
+        color: $card-border-color;
+        background-color: $dark-page;
+        border: solid $card-border-color;
+        border-radius: 20%;
+    }
+
 }
 
-.uber:hover {
-    color: $card-border-color;
-    background-color: $dark-page;
-    border: solid $card-border-color;
-    border-radius: 20%;
-}
+
 
 .card-text-border {
     border-radius: 15px;

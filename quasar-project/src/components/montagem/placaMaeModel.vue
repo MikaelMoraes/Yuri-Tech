@@ -19,7 +19,7 @@
                 </q-card-section>
                 <q-card-section class="q-pt-none" v-model="seleciona_placa_mae">
                     <div class="row items-center q-pa-xl  justify-center text-white border-top"
-                        v-for="caracteristica in placa_mae" :key="caracteristica.modelo" :value="caracteristica.modelo">
+                        v-for="caracteristica in placa_mae.placa_mae" :key="caracteristica.modelo" :value="caracteristica.modelo">
                         <div class="col-12">
                             <p class="text-h6">{{ caracteristica.modelo }}</p>
                         </div>
@@ -34,7 +34,7 @@
                                 </q-img>
                             </div>
                         <div class="col-12 text-center q-pt-xl">
-                            <q-btn label="Incluir" color="primary" @click="seleciona_placa_mae = caracteristica.modelo"
+                            <q-btn label="Incluir" color="primary" @click="seleciona_placa_mae = caracteristica.modelo,  enviarPlacaMae()"
                                 v-close-popup />
                         </div>
                     </div>
@@ -56,6 +56,7 @@
 }
 </style>
 <script>
+import axios from 'axios'
 import { defineComponent } from 'vue'
 import { ref } from 'vue'
 export default defineComponent({
@@ -67,11 +68,21 @@ export default defineComponent({
             seleciona_placa_mae: ""
         }
     },
-    mounted() {
-        const baseUrl = 'http://localhost:3000'
-        fetch(`${baseUrl}/placa_mae`)
-            .then(response => response.json())
-            .then(setup => this.placa_mae = setup)
+    created() {
+        axios.get('/DB/db.json')
+            .then(response => {
+                this.placa_mae = response.data;
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o arquivo JSON:', error);
+            });
+    },
+    methods:{
+        enviarPlacaMae(){
+            this.$emit('placaMae',
+                this.seleciona_placa_mae
+            )
+        }
     }
 
 })

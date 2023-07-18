@@ -49,13 +49,15 @@
 .bounce {
     transform: perspective(1px) translateZ(0);
     transition-duration: 0.5s;
-}
-
-.bounce:hover {
+&:hover {
     transform: scale(1.2);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 
 }
+    
+}
+
+
 
 .text-rede {
     color: $borda-top;
